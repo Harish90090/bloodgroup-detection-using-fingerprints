@@ -1,4 +1,4 @@
-BLOOD GROUP DETECTION USING FINGERPRINTS
+
 This repository contains the source code, training notebook, and demo system for my **Final Year Project (FYP)**:  
 a **deep learning–based system** that predicts **blood groups from fingerprint images** using EfficientNet CNNs.  
 It includes **model training**, a trained model, and a **Flask-based demo UI**.
@@ -44,8 +44,5 @@ Project Overview
 * **Model**: EfficientNetB0 (transfer learning)
 * **Classes**: 8 blood groups → `['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-']`
 
-
-
--
 
 * **Dataset**: [SOCOFing – Sokoto Coventry Fingerprint Dataset](https://www.kaggle.com/datasets/ruizgara/socofing)
