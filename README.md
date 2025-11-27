@@ -6,10 +6,7 @@ It includes **model training**, a trained model, and a **Flask-based demo UI**.
 
 ---
 
-## 🎥 Demo Video
-[![Watch the demo](https://img.youtube.com/vi/bCNX2WjBYcI/0.jpg)](https://youtu.be/bCNX2WjBYcI)
 
----
 
 ## 📌 Project Overview
 - **Goal**: Predict human blood groups using fingerprint images in a non-invasive manner.  
@@ -55,15 +52,7 @@ Non-Invasive-Blood-Group-Prediction-Using-Fingerprint-Analysis/
 
 ---
 
-## 🚀 Quickstart
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/wObbLee00/Non-Invasive-Blood-Group-Prediction-Using-Fingerprint-Analysis.git
-cd Non-Invasive-Blood-Group-Prediction-Using-Fingerprint-Analysis
-````
-
-### 2. Create virtual environment & install requirements
+ Create virtual environment & install requirements
 
 ```bash
 python -m venv venv
@@ -73,7 +62,7 @@ source venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
 ```
 
-### 3. Model file
+ Model file
 The trained model is **already included** in this repository at: `model/final_best_efficientnetb0_model_final.keras`
 ### 4. Run the demo
 
@@ -81,7 +70,6 @@ The trained model is **already included** in this repository at: `model/final_be
 python app.py
 ```
 
-* Open browser: `http://127.0.0.1:5000`
 
 ---
 
@@ -115,12 +103,8 @@ python app.py
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
----
-
-## 🙌 Acknowledgments
+-
 
 * **Dataset**: [SOCOFing – Sokoto Coventry Fingerprint Dataset](https://www.kaggle.com/datasets/ruizgara/socofing)
 * **Supervisor**: Dr. Umair Muneer Butt (UMT Sialkot)
 * **Team**: Habiba Fiaz, Saad Jamshaid, Zahra Akhtar, Wabil Nadeem Butt
-
----
